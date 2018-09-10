@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3/09/2018, 04:41:20 PM
+    Author     : kevin
+*/
+html{
+    background: #aedefc;
+}
+form {
+  width: 100%;
+  max-width: 600px;
+  height: 620px;
+  text-align: center;
+  border: none;
+  padding-bottom: 10px;
+  margin: auto;
+  background: #ffdfdf;
+}
+input[type=number] {
+    width: 75%;
+    padding: 20px 32px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: none;
+    text-align: left;
+    color: #333;
+    background: #fff6f6;
+    font-family: numeros;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #fff6f6;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    font-size: 16px;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: numeros;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #333;
+}
+select{
+    width: 75%;
+    padding: 20px 32px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: none;
+    text-align: left;
+    color: #333;
+    background: #ffe2ff;
+    font-family: numeros;
+}
+.titulo{
+    color: #481380;
+    font-size: 30px;
+    font-family: Hola;
+}
+.nota{
+    font-family: nota;
+    font-size: 25px;
+}
+.res{
+    font-family: resultado;
+    font-size: 35px;
+    text-align: center;
+}
+@font-face{
+    font-family: Hola;
+    src: url(Martinesse.ttf) format("truetype");
+}
+@font-face{
+    font-family: numeros;
+    src: url(Luna.ttf) format("truetype");
+}
+@font-face{
+    font-family: nota;
+    src: url(song.ttf) format("truetype");
+}
+@font-face{
+    font-family: resultado;
+    src: url(Lemon.ttf) format("truetype");
+}
+a{
+    font-family: nota;
+    color: #481380;
+    font-size: 25px;
+}

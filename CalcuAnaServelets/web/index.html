@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora Ana Marlene González Ángeles 51M9</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <form method="post" action="calculadora">
+            <br><br>
+            <p class="titulo">Calculadora</p>
+                <input style="text-align: center;" placeholder="Primer numero" type="number" name="ans" value="">
+            <input style="text-align: center;" placeholder="Segundo numero" type="number" name="ans2" value=""> 
+            <br>
+            <select name="op">
+                <option value="1" selected>+</option>
+                <option value="2">-</option>
+                <option value="3">*</option>
+                <option value="4">/</option>
+                <option value="5">||</option>
+                <option value="6">sen</option>
+                <option value="9">arcsen</option>
+                <option value="7">cos</option>
+                <option value="10">arccos</option>
+                <option value="8">tan</option>
+                <option value="11">arctan</option>
+            </select>
+            <br>
+            <input type="reset" value="c">
+            <input type="submit" value="=" name="igu">
+            <p class="nota">Nota: para las funciones trigonométricas el primer número tiene que ser 0</p>
+        </form>
+    </body>
+</html>
